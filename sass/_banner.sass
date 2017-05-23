@@ -1,0 +1,46 @@
+.banner
+  background: url("../img/banner.jpg") 0 0 no-repeat
+  height: auto
+  font-family: "Fjalla One", sans-serif
+  font-weight: normal
+  color: $white
+  text-align: center
+  padding: 0 0 5% 0
+  &__title
+    font-family: "Fjalla One", sans-serif
+    text-transform: uppercase
+    font-size: 41px
+    font-weight: normal
+    padding: 0
+    margin: 20.3% 0 0.5% 0
+    display: inline-block
+  &__description
+    width: 44%
+    font-size: 31px
+    padding: 33px 20px
+    margin: 0 0 3.5%
+    display: inline-block
+    text-transform: uppercase
+  &__button
+    font-family: Sintony, sans-serif
+    font-size: 20px
+    font-weight: normal
+    color: $white
+    text-transform: uppercase
+    padding: 15px 22px
+    background: transparent
+    border: 2px solid $white
+    position: relative
+    &:after
+      content: ''
+      display: block
+      position: absolute
+      bottom: -10px
+      right: 0
+      left: 0
+      margin-left: auto
+      margin-right: auto
+      background: inherit
+      width: 21px
+      height: 21px
+      transform: rotate(45deg)
